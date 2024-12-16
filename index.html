@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <h1>TP Bootstrap</h1>
+    <!-- <h1>TP Bootstrap</h1> -->
 
     <!-- <div style="container-fluid"> -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -32,12 +32,12 @@
     <!-- </div> -->
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
     Launch demo modal
-</button>
+</button> -->
   
   <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
@@ -53,21 +53,21 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- <div class="container-fluid">
     
     <div class="row">
 
-        <div class="col gdgCol">
+        <div class="col">
             Ligne 1 / Colonne 1
         </div>
 
-        <div class="col gdgCol">
+        <div class="col">
             Ligne 1 / Colonne 2
         </div>
 
-        <div class="col gdgCol">
+        <div class="col">
             Ligne 1 / Colonne 3
         </div>
 
@@ -75,15 +75,15 @@
 
     <div class="row">
 
-        <div class="col gdgCol">
+        <div class="col">
             Ligne 2 / Colonne 1
         </div>
 
-        <div class="col gdgCol">
+        <div class="col">
             Ligne 2 / Colonne 2
         </div>
 
-        <div class="col gdgCol">
+        <div class="col">
             Ligne 2 / Colonne 3
         </div>
 
@@ -93,59 +93,71 @@
 
   <!-- <div class="container text-center">
     <div class="row row-cols-3">
-        <div class="col gdgCol">Column</div>
-        <div class="col gdgCol">Column</div>
-        <div class="col gdgCol">Column</div>
-        <div class="col gdgCol">Column</div>
-        <div class="col gdgCol">Column</div>
-        <div class="col gdgCol">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
     </div>
   </div> -->
 
-  <div class="container overflow-hidden text-center">
-    <div class="row gy-1">
-      <div class="col-4">
-        <div class="p-3 gdgCol">
+  <div class="container">
+    <div class="row gy-1 d-flex justify-content-center">
+      <div class="col-3">
+        <div class="p-3">
             <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#sunRiseModal">
-                <img src="./img/a.jpg" class="gdgImg" alt="">
-                <p class="fs-4 fw-medium text-start">Sun rise</p>
-                <p class="fs-4 fw-light text-start">Photography</p>
+              <img src="./img/a.jpg" class="w-100 h-100" alt="">
+              <p class="fs-4 fw-medium text-start">Sun rise</p>
+              <p class="fs-4 fw-light text-start">Photography</p>
             </button>
         </div>
       </div>
-      <div class="col-4">
-        <div class="p-3 gdgCol">
-            <img src="./img/b.jpg" class="gdgImg" alt="">
+      <div class="col-3">
+        <div class="p-3">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mesangeModal">
+            <img src="./img/b.jpg" class="w-100 h-100" alt="">
             <p class="fs-4 fw-medium text-start">Mésange</p>
             <p class="fs-4 fw-light text-start">Photography</p>
+          </button>
         </div>
       </div>
-      <div class="col-4">
-        <div class="p-3 gdgCol">
-            <img src="./img/c.jpg" class="gdgImg" alt="">
+      <div class="col-3">
+        <div class="p-3">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#fauconModal">
+            <img src="./img/c.jpg" class="w-100 h-100" alt="">
             <p class="fs-4 fw-medium text-start">Faucon</p>
             <p class="fs-4 fw-light text-start">Photography</p>
+          </button>
         </div>
       </div>
-      <div class="col-4">
-        <div class="p-3 gdgCol">
-            <img src="./img/d.jpg" class="gdgImg" alt="">
+    </div>
+    <div class="row gy-1 d-flex justify-content-center">
+      <div class="col-3">
+        <div class="p-3">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#martinPecheurModal">
+            <img src="./img/d.jpg" class="w-100 h-100" alt="">
             <p class="fs-4 fw-medium text-start">Martin-pêcheur</p>
             <p class="fs-4 fw-light text-start">Photography</p>
+          </button>
         </div>
       </div>
-      <div class="col-4">
-        <div class="p-3 gdgCol">
-            <img src="./img/e.jpg" class="gdgImg" alt="">
+      <div class="col-3">
+        <div class="p-3">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#sunSetModal">
+            <img src="./img/e.jpg" class="w-100 h-100" alt="">
             <p class="fs-4 fw-medium text-start">Sun set</p>
             <p class="fs-4 fw-light text-start">Photography</p>
+          </button>
         </div>
       </div>
-      <div class="col-4">
-        <div class="p-3 gdgCol">
-            <img src="./img/f.jpg" class="gdgImg" alt="">
+      <div class="col-3">
+        <div class="p-3">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#colibrieModal">
+            <img src="./img/f.jpg" class="w-100 h-100" alt="">
             <p class="fs-4 fw-medium text-start">Colibrie</p>
             <p class="fs-4 fw-light text-start">Photography</p>
+          </button>
         </div>
       </div>
     </div>
@@ -160,7 +172,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-            <img src="./img/a.jpg" class="gdgImg" alt="">
+            <img src="./img/a.jpg" class="w-100 h-100" alt="">
             <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, distinctio! Earum quam exercitationem blanditiis ducimus rerum provident excepturi id est, dicta ab eaque. Dolorem aspernatur sequi dolorum rerum aliquid, est unde nesciunt eum veritatis, omnis, commodi minima eaque accusamus blanditiis placeat odio rem quibusdam? Excepturi eaque quia ratione maiores sint porro cum earum aut! Neque, quos laborum asperiores quidem tenetur quo labore eligendi atque? Repudiandae voluptatem quas hic itaque vero in, voluptas placeat ratione quia provident porro totam sit aspernatur quis optio. Doloribus odit aut dicta excepturi officiis iure doloremque.</P>
         </div>
         <div class="modal-footer">
@@ -170,6 +182,135 @@
       </div>
     </div>
   </div>
+
+  <div class="modal fade" id="mesangeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sun rise</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="./img/b.jpg" class="w-100 h-100" alt="">
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, distinctio! Earum quam exercitationem blanditiis ducimus rerum provident excepturi id est, dicta ab eaque. Dolorem aspernatur sequi dolorum rerum aliquid, est unde nesciunt eum veritatis, omnis, commodi minima eaque accusamus blanditiis placeat odio rem quibusdam? Excepturi eaque quia ratione maiores sint porro cum earum aut! Neque, quos laborum asperiores quidem tenetur quo labore eligendi atque? Repudiandae voluptatem quas hic itaque vero in, voluptas placeat ratione quia provident porro totam sit aspernatur quis optio. Doloribus odit aut dicta excepturi officiis iure doloremque.</P>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="fauconModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sun rise</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="./img/c.jpg" class="w-100 h-100" alt="">
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, distinctio! Earum quam exercitationem blanditiis ducimus rerum provident excepturi id est, dicta ab eaque. Dolorem aspernatur sequi dolorum rerum aliquid, est unde nesciunt eum veritatis, omnis, commodi minima eaque accusamus blanditiis placeat odio rem quibusdam? Excepturi eaque quia ratione maiores sint porro cum earum aut! Neque, quos laborum asperiores quidem tenetur quo labore eligendi atque? Repudiandae voluptatem quas hic itaque vero in, voluptas placeat ratione quia provident porro totam sit aspernatur quis optio. Doloribus odit aut dicta excepturi officiis iure doloremque.</P>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="martinPecheurModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sun rise</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="./img/d.jpg" class="w-100 h-100" alt="">
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, distinctio! Earum quam exercitationem blanditiis ducimus rerum provident excepturi id est, dicta ab eaque. Dolorem aspernatur sequi dolorum rerum aliquid, est unde nesciunt eum veritatis, omnis, commodi minima eaque accusamus blanditiis placeat odio rem quibusdam? Excepturi eaque quia ratione maiores sint porro cum earum aut! Neque, quos laborum asperiores quidem tenetur quo labore eligendi atque? Repudiandae voluptatem quas hic itaque vero in, voluptas placeat ratione quia provident porro totam sit aspernatur quis optio. Doloribus odit aut dicta excepturi officiis iure doloremque.</P>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="sunSetModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sun rise</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="./img/e.jpg" class="w-100 h-100" alt="">
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, distinctio! Earum quam exercitationem blanditiis ducimus rerum provident excepturi id est, dicta ab eaque. Dolorem aspernatur sequi dolorum rerum aliquid, est unde nesciunt eum veritatis, omnis, commodi minima eaque accusamus blanditiis placeat odio rem quibusdam? Excepturi eaque quia ratione maiores sint porro cum earum aut! Neque, quos laborum asperiores quidem tenetur quo labore eligendi atque? Repudiandae voluptatem quas hic itaque vero in, voluptas placeat ratione quia provident porro totam sit aspernatur quis optio. Doloribus odit aut dicta excepturi officiis iure doloremque.</P>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="colibrieModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sun rise</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="./img/f.jpg" class="w-100 h-100" alt="">
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, distinctio! Earum quam exercitationem blanditiis ducimus rerum provident excepturi id est, dicta ab eaque. Dolorem aspernatur sequi dolorum rerum aliquid, est unde nesciunt eum veritatis, omnis, commodi minima eaque accusamus blanditiis placeat odio rem quibusdam? Excepturi eaque quia ratione maiores sint porro cum earum aut! Neque, quos laborum asperiores quidem tenetur quo labore eligendi atque? Repudiandae voluptatem quas hic itaque vero in, voluptas placeat ratione quia provident porro totam sit aspernatur quis optio. Doloribus odit aut dicta excepturi officiis iure doloremque.</P>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid d-flex align-items-center justify-content-center ">
+    <div class="row">
+      
+      <div class="col-6">
+        
+        <div class="row mb-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+          </div>
+        </div>
+        
+        <div class="row mb-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Email" aria-label="Email">
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Phone" aria-label="Phone">
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class="col-6">
+        <textarea name="" id="" class="form-control h-100">
+        </textarea>
+      </div>
+      
+    </div>
+  </div>
+  
 
 </body>
 </html>
