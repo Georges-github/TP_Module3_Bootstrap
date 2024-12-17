@@ -5,3 +5,19 @@ h1 {
 .gdgCol {
     border: solid 1px blue;
 }
+
+.bg-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .bg-size-half{
+    background-size: 50%;
+  }
+
+  .bg-position-top{
+    background-position: top;
+  }
+  
+  
