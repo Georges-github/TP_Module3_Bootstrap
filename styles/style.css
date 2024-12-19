@@ -16,4 +16,30 @@
     background-position: top;
   }
   
-  
+  .gdgDivLogo {
+    border: solid 1px goldenrod;
+    border-radius: 3px;
+    width: 35px;
+    height: 35px;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gdgSpanLogo {
+    background-color: white;
+    border-radius: 20px;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+    font-weight: bold;
+  }
+
+  .logoTwitter {
+    width: 20px;
+    height: 20px;
+  }
